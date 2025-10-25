@@ -30,4 +30,24 @@ Requirements are prioritized based on importance and impact on the project. Feas
 **5. Requirement Validation:**
 Requirements are reviewed to ensure they meet the required accuracy. Acceptance criteria are drawn up, and traceability matrices are created to ensure all requirements are addressed during development and testing.
 
+## Types of Requirements
 
+### Functional Requirements
+
+Describes *what* the system does.
+
+* **Search Properties**: The user should be able to look for a property based on price, availability, cost, and location.
+* **Booking System**: Users should be able to book properties and view their booking details.
+* **Payment System**: Users should be able to pay for the properties they have booked.
+* **User Authentication**: The system should be able to onboard new users and provide secure registration and login for existing users.
+* **Property Onboarding**: Landlords and property owners should be able to add their properties to the platform upon providing proof of ownership.
+
+### Non-Functional Requirements
+
+Describes the *performance* and *quality* of the system.
+
+* **Page Load Time:** All primary pages (homepage, search results, listing details) must load fully in under 3 seconds.
+* **Search Latency:** A search query with multiple filters (date, location, price) must return results in under 2 seconds.
+* **Booking Transaction:** The "Confirm and Pay" action must be processed (including payment authorization) and return a confirmation to the user in under 5 seconds.
+* **Fault Tolerance:** The failure of one component (e.g., a single web server or a microservice) must not cause the entire system to fail.
+* **Database Scalability:** The database must support read replicas to handle the high load of search queries without slowing down booking transactions.

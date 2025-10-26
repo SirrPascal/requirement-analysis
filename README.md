@@ -55,11 +55,12 @@ Describes the *performance* and *quality* of the system.
   ## Use Case Diagrams
 Use case diagrams are a visual representation that shows how different users, called actors, interact with a system to achieve specific goals, known as use cases.
 To create one, you:
-1.  Identify the actors (e.g., guest, registered user, admin).
-2.  Define the use cases (e.g., search properties, book property, manage listings).
+1.  Identify the actors.
+2.  Define the use cases.
 3.  Draw the interactions between the actors and the use cases.
+   ![Use case diagram](https://github.com/SirrPascal/requirement-analysis/blob/main/alx-booking-uc.png?raw=true)
 
 ## Benefits of Use Case Diagrams
 * They provide a clear visual representation of the system's functionalities.
-* They help in identifying and organizing the system's requirements.
+* They help identify and organize the system's requirements.
 * They facilitate communication among all stakeholders and the development team.

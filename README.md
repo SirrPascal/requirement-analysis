@@ -51,3 +51,15 @@ Describes the *performance* and *quality* of the system.
 * **Booking Transaction:** The "Confirm and Pay" action must be processed (including payment authorization) and return a confirmation to the user in under 5 seconds.
 * **Fault Tolerance:** The failure of one component (e.g., a single web server or a microservice) must not cause the entire system to fail.
 * **Database Scalability:** The database must support read replicas to handle the high load of search queries without slowing down booking transactions.
+
+  ## Use Case Diagrams
+Use case diagrams are a visual representation that shows how different users, called actors, interact with a system to achieve specific goals, known as use cases.
+To create one, you:
+1.  Identify the actors (e.g., guest, registered user, admin).
+2.  Define the use cases (e.g., search properties, book property, manage listings).
+3.  Draw the interactions between the actors and the use cases.
+
+## Benefits of Use Case Diagrams
+* They provide a clear visual representation of the system's functionalities.
+* They help in identifying and organizing the system's requirements.
+* They facilitate communication among all stakeholders and the development team.
